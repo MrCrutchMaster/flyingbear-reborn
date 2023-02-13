@@ -4,6 +4,8 @@ Octopus pro 429 распиновка
 
 ![alt text](./img/btt_octopus_pro_1.0_pins.png)
 
+![alt text](./img/board_with_marks.jpg)
+
 ## Подключение моторов:
 
 ![alt text](./img/btt_octopus_1.1_spi.png)
