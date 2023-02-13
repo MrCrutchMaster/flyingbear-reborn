@@ -66,7 +66,6 @@ TODO
 Убираем "!" перед именем пина концевика, если нужно
 
 <code>
-
 	M574 X1 S1 P"!xstop";
 
 	M574 Y1 S1 P"!ystop";
@@ -78,7 +77,8 @@ TODO
 
 S0 backward / S1 frontward
 
-<code>M569 P0 S0; XY1 motor
+<code>
+	M569 P0 S0; XY1 motor
 
 	M569 P1 S0; XY2 motor
 
