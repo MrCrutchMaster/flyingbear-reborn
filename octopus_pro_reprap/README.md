@@ -6,6 +6,10 @@ Octopus pro 429 распиновка
 
 ![alt text](./img/board_with_marks.jpg)
 
+## WIFI модуль
+
+Все описаное подходит для ESP8266, но так же можно использовать ESP32, нужно будет заменить прошивку в SD_CONTENT/firmware/DuetWifiServer.bin на https://github.com/gloomyandy/DuetWiFiSocketServer/releases/download/v1.27-02/DuetWiFiServer-esp32-stm32-1.27-02.bin ( не забудьте переименовать скачаный файл в DuetWifiServer.bin)
+
 ## Подключение моторов:
 
 ![alt text](./img/btt_octopus_1.1_spi.png)
@@ -29,7 +33,12 @@ Octopus pro 429 распиновка
 
 ## Подготовка SD карты
 
-TODO
+Форматируем флешку, размер сектора обязательно 512 байт
+
+- Если карта меньше 4гб, то FAT16
+- Если карта от 4 до 31гб, то FAT32
+
+Копируем все !содержимое! папки SD_CONTENT прямо в корень флешки
 
 ## Устанавливаем софт
 Устанавливаем хрень для подключение к плате:
