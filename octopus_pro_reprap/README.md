@@ -62,13 +62,11 @@ TODO
 
 Убираем "!" перед именем пина концевика, если нужно
 
-<code>
+`
 	M574 X1 S1 P"!xstop";
-
 	M574 Y1 S1 P"!ystop";
-
 	M574 Z1 S1 P"!zstop+!e0stop"; double Z endstop
-<code>
+`
 
 ## Реверс моторов
 
