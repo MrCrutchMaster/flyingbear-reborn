@@ -41,15 +41,13 @@ TODO
 ## Шьем
 Выполняем пару команд для прошивки wifi модуля и основной прошивки
 
-`M552 S0`
-
-`M997 S1`
-
-`M552 S0`
-
-`M587 S"WIFI_SSID" P"WIFI_PASS"`
-
-`M552 S1`
+```
+	M552 S0
+	M997 S1
+	M552 S0
+	M587 S"WIFI_SSID" P"WIFI_PASS"
+	M552 S1
+```
 
 # Правки в конфиг
 
@@ -62,27 +60,23 @@ TODO
 
 Убираем "!" перед именем пина концевика, если нужно
 
-`
+```
 	M574 X1 S1 P"!xstop";
 	M574 Y1 S1 P"!ystop";
 	M574 Z1 S1 P"!zstop+!e0stop"; double Z endstop
-`
+```
 
 ## Реверс моторов
 
 S0 backward / S1 frontward
 
-<code>
+```
 	M569 P0 S0; XY1 motor
-
 	M569 P1 S0; XY2 motor
-
 	M569 P2 S0; Z1 motor
-
 	M569 P3 S0; Z2 moto
-
 	M569 P4 S1;  E motor
-<code>
+```
 
 # Калибровки
 
