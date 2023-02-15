@@ -24,6 +24,8 @@ Octopus pro 429 распиновка
 
 ## Подключение моторов:
 
+Драйвера всех поторов у меня стоит BTT 2209 v1.2
+
 ![alt text](./img/btt_octopus_1.1_spi.png)
 
 - XY1 motor: MOTOR0 pin
@@ -97,8 +99,8 @@ S0 backward / S1 frontward
 	M569 P0 S0; XY1 motor
 	M569 P1 S0; XY2 motor
 	M569 P2 S0; Z1 motor
-	M569 P3 S0; Z2 moto
-	M569 P4 S1;  E motor
+	M569 P3 S0; Z2 motor
+	M569 P4 S0; E motor
 ```
 
 # Калибровки
