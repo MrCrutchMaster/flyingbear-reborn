@@ -20,6 +20,12 @@ https://teamgloomy.github.io/btt_octopus_pro_1.0_f429_pins.html - инфа по 
 
 https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-Pro - офф доки от BTT по Octopus Pro
 
+https://github.com/gloomyandy/RepRapFirmware/releases - релизы прошивок
+
+https://github.com/Duet3D/DuetWebControl/releases - релизы веб интерфейса
+
+
+
 # Компоненты 
 
 - Плата Octopus pro 429
