@@ -1,0 +1,22 @@
+T0;
+M291 P"Heating nozzle to 220C" R"Loading new filament" T5;
+G10 S220; set temp to 220
+M116; wait for temp
+M291 P"You have 5 sec to put new filamet to extruder" R"Loading new filament" T5;
+G4 P5000; wait 5 sec before turnin extruder
+M83; extruder relative mode
+G1 E50 F1200; load 50mm of filament fast
+G1 E50 F600; load 50mm of filament slow
+M291 P"Finished" R"Loading new filament" T5;
+
+
+
+T0																					; Select tool 0
+M291 P"Heating nozzle to 220C" R"Loading new filament" T5							; Display message
+M109 S220																			; set temp to 220 and wait
+M291 P"You have 5 sec to put new filamet to extruder" R"Loading new filament" T5;	; Display message
+G4 P5000																			; wait 5 sec before turnin extruder
+M83																					; extruder relative mode
+G1 E50 F1200																		; load 50mm of filament fast
+G1 E50 F600																			; load 50mm of filament slow
+M291 P"Finished" R"Loading new filament" T5											; Display message

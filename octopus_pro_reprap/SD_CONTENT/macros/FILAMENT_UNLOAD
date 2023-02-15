@@ -1,0 +1,7 @@
+T0																	; Select tool 0
+M291 P"Heating nozzle to 220C" R"Unloading old filament" T5			; Display message
+M109 S220															; set temp to 220 and wait
+M291 P"Unloading..." R"Unloading old filament" T5					; Display message
+M83																	; extruder relative mode
+G1 E-100 F1200														; unload 100mm of filament fast
+M291 P"Finished" R"Unloading old filament" T5						; Display message
