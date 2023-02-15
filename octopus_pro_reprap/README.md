@@ -10,6 +10,13 @@
 
 В своем подключении я использую штатаный мосфет для работы с грелкой стола.
 
+# Компоненты 
+
+- Плата Octopus pro 429
+- Драйверы BTT TMC2209 v1.2. Vref XY1: 1.2; XY2: 1.2; Z1: 0.8; Z2: 0.8; E: 0.5
+- Экран BTT LCD Mini 12864 v1.0
+- WIFI модуль  ESP8266, но так же можно использовать ESP32, нужно будет заменить прошивку в SD_CONTENT/firmware/DuetWifiServer.bin на https://github.com/gloomyandy/DuetWiFiSocketServer/releases/download/v1.27-02/DuetWiFiServer-esp32-stm32-1.27-02.bin ( не забудьте переименовать скачаный файл в DuetWifiServer.bin)
+
 # Схема подключение реборна к плате
 
 Octopus pro 429 распиновка
@@ -18,13 +25,7 @@ Octopus pro 429 распиновка
 
 ![alt text](./img/board_with_marks.jpg)
 
-## WIFI модуль
-
-Все описаное подходит для ESP8266, но так же можно использовать ESP32, нужно будет заменить прошивку в SD_CONTENT/firmware/DuetWifiServer.bin на https://github.com/gloomyandy/DuetWiFiSocketServer/releases/download/v1.27-02/DuetWiFiServer-esp32-stm32-1.27-02.bin ( не забудьте переименовать скачаный файл в DuetWifiServer.bin)
-
 ## Подключение моторов:
-
-Драйвера всех поторов у меня стоит BTT 2209 v1.2
 
 ![alt text](./img/btt_octopus_1.1_spi.png)
 
