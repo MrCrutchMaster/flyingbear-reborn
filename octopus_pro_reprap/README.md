@@ -45,7 +45,7 @@ Octopus pro 429 распиновка
 
 ## Подключение моторов:
 
-![alt text](./img/btt_octopus_1.1_spi.png)
+![alt text](./img/btt_octopus_1.1_uart.png)
 
 - XY1 motor: MOTOR0 pin
 - XY2 motor: MOTOR1 pin
